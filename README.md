@@ -7,6 +7,12 @@ assessment.
 Together with a database of metadata provided by the [GHTorrent](http://ghtorrent.org/) project, *reaper* considers both contextual information such as commit history as well
 as the contents of the repository itself.
 
+## Team
+
+This fork of the [reaper](https://github.com/RepoReapers/reaper) project is being used to
+investigate the use of custom attributes to characterize scientific software projects. The team includes:
+- [Erika S. Mesh](http://www.se.rit.edu/~mesh/)
+
 ## Installation
 
 The projects runs on systems with `python3`. There are a number of python
