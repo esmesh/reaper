@@ -12,6 +12,7 @@ as the contents of the repository itself.
 This fork of the [reaper](https://github.com/RepoReapers/reaper) project is being used to
 investigate the use of custom attributes to characterize scientific software projects. The team includes:
 - [Erika S. Mesh](http://www.se.rit.edu/~mesh/)
+- [Sayantika Bhattacharya](https://github.com/Sayantika23)
 
 ## Installation
 
