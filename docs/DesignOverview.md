@@ -83,7 +83,9 @@ def init(cursor, **options):
 ```
 
 ### Design for Attributes that do **not** require access to the project source code
-
+- Create a folder with the name of the attribute
+- Create a main.py file inside the folder
+- Implement the run method
 ### Design for Attributes that do **require** access to the project source code
 - Query the database to get the project URL
 - Read the project files using this URL using any preferred library
