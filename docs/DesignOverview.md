@@ -6,13 +6,13 @@ This document provides a rough overview of our understanding of the reaper proje
 
 | File | Purpose |
 | --- | -----------|
-| batch_score.py | |
-| config.json | |
-| manifest.json | |
-| score_repo.py | |
-| attributes/... | |
-| lib/... | |
-| tests/... | |
+| batch_score.py |This is the main script of the Reaper application. It is responsible for giving a score to repositories based on attributes. Each attribute has its own way of scoring a repository.  |
+| config.json |It is the file which provides configuration to the batch_score.py script. This script can be configured with the credentials to the GHTorrent database as well as the list of attributes to be executed against the repositories. |
+| manifest.json |List of attributes to be executed. |
+| score_repo.py |Currently outdated. Do not use.  |
+| attributes/... |Folder containing the attributes. Each attribute is represented as a folder which contains a main.py script representing the main script for the attribute.  |
+| lib/... |Contains the source code for the Reaper program. |
+| tests/... | Contains unit tests. |
 
 ## GHTorrent Source Data
 
@@ -83,5 +83,9 @@ def init(cursor, **options):
 ```
 
 ### Design for Attributes that do **not** require access to the project source code
-
+- Create a folder with the name of the attribute
+- Create a main.py file inside the folder
+- Implement the run method
 ### Design for Attributes that do **require** access to the project source code
+- Query the database to get the project URL
+- Read the project files using this URL using any preferred library
