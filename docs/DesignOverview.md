@@ -14,6 +14,10 @@ This document provides a rough overview of our understanding of the reaper proje
 | lib/... |Contains the source code for the Reaper program. |
 | tests/... | Contains unit tests. |
 
+### config.json
+
+### manifest.json
+
 ## GHTorrent Source Data
 
 [GHTorrent](http://ghtorrent.org/) is a research project that aims to collect
