@@ -16,7 +16,27 @@ This document provides a rough overview of our understanding of the reaper proje
 
 ### config.json
 
+| Variable   | Purpose   |
+| ------     | ------    |
+| threshold  | Threshold for any of the dimensions/attribute. Example, for documentation dimension,set threshold for ratio of comment lines to source lines.   |
+| database   | GHTorrent |
+| user       |           |
+| password   |           |
+| host       |           |
+
+
 ### manifest.json
+
+| Variable   | Purpose   |
+| ------     | ------    |
+|  name      | Attribute name |
+|  weight    | Sets the relative importance of each dimension/attribute|
+|  enabled   | Choose to enable/disable an attribute in customized search for repositories |
+| requires_source |      |
+| dependencies |         |
+| timeout  | Sets the time until Reaper runs |
+| cutoff  |   |
+
 
 ## GHTorrent Source Data
 
