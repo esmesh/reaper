@@ -60,7 +60,7 @@ write results. This table is named `reaper_results`. A summary of the table is b
 | --- | ---------- | -----------|
 | `project_id` (primary key) | int(11)| |
 | `architecture`|double| |
-| `community`|double| |
+| `community`|double| |To show evidence of collaboration and cooperation involved in development of the software. |
 | `continuous_integration`|double| |
 | `documentation`|double| |
 | `history`|double| |
