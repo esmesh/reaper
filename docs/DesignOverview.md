@@ -64,7 +64,7 @@ write results. This table is named `reaper_results`. A summary of the table is b
 | `continuous_integration`|double| Evidence of developers integrating(building, running and testing) their code combined with code from other developers. Important for understanding the stability of code under continuous evolution for release. The source code looks for confguration files (CI) in the source code repo.|
 | `documentation`|double| Documentations like code comments are important for maintenance.The source code for this attribute calculates comment ratio. Uses Perl utility cloc to calculate lines of code and comments.|
 | `history`|double| Changes to source code such as bug fixes, feature addition, refactoring, acts as evidence towards practically usable software. For this, commit frequency is calculated by calculating num_commits and avg_commits.  |
-| `license`|double| Licenses direct a users' right to use and modify software. It is considered good practice to include license in source code so as to avoid any legal issues under copyright laws as it clealy informs about the source code owner's rights to their code.  |
+| `license`|double| Licenses direct a users' right to use and modify software. It is considered good practice to include license in source code so as to avoid any legal issues under copyright laws as it clealy informs about the source code owner's rights to their code. GitHub License API searches for license availablity in source code repo  files such as LICENSE and COPYING. Does not search for License information in README.md or in source code. |
 | `management`|double| |
 | `project_size`|double| |
 | `repository_size`|double| |
