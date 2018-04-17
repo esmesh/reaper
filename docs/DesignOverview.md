@@ -56,12 +56,13 @@ implementation of `score_repo.py` relies on this information being accessible. B
 If persist results is enabled a database table needs to exist to which reaper can 
 write results. This table is named `reaper_results`. A summary of the table is below.
 
+
 | Column | Type | Purpose |
 | --- | ---------- | -----------|
 | `project_id` (primary key) | int(11)| |
 | `architecture`|double| |
-| `community`|double| |To show evidence of collaboration and cooperation involved in development of the software. |
-| `continuous_integration`|double| |
+| `community`|double| To show evidence of collaboration and communication between developers during the development of the system. num_core_contributors - Number of core contributors should be more than 1. |
+| `continuous_integration`|double| Evidence of developers integrating(building, running and testing) their code combined with code from other developers. Important for understanding the stability of code under continuous evolution for release. The source code looks for confguration files (CI) in the source code repo.|
 | `documentation`|double| |
 | `history`|double| |
 | `license`|double| |
