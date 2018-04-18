@@ -70,7 +70,7 @@ write results. This table is named `reaper_results`. A summary of the table is b
 | `repository_size`|double| |
 | `state`|varchar(255)| |
 | `stars`|double| |
-| `unit_test`|double| |
+| `unit_test`|double| An engineered software project is designed to have rigorous testing for quality improvement and maintenance so as to ensure that the product complies with its behavior. Test ratio unit is utilized for calculating unit testing effort. |
 | `score`|double| |
 
 
